@@ -15,7 +15,7 @@
 
 ![Screenshot 2024-08-01 032014](https://github.com/user-attachments/assets/2aea168c-e0db-4290-ba77-ab00d73fba42)
 
-## WEbsite Link
+## Website Link
 https://codetecheditor.netlify.app/
 
 ## Project Objective
@@ -48,7 +48,7 @@ https://codetecheditor.netlify.app/
 
  
  # Authors 
-  @aniket2608
+  aniket2608
  
  # Links
 https://www.linkedin.com/in/aniket-patil26
