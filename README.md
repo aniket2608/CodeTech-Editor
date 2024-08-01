@@ -1,5 +1,18 @@
 # CodeTech | An Online IDE
+1)splashScreen
+![Screenshot 2024-08-02 002223](https://github.com/user-attachments/assets/688725a4-1c02-4173-999b-331ff87b126b)
 
+2)HomeScreen
+![Screenshot 2024-08-02 002357](https://github.com/user-attachments/assets/5dd984e0-ceee-45dc-b327-5b46c30b969a)
+
+3)CodebookScreen
+![Screenshot 2024-08-02 002702](https://github.com/user-attachments/assets/dcef8a1a-d798-40c4-bacf-81f5a998637f)
+
+4)404-Error Screen
+![Screenshot 2024-08-01 032014](https://github.com/user-attachments/assets/2aea168c-e0db-4290-ba77-ab00d73fba42)
+
+## WEbsite Link
+https://codetecheditor.netlify.app/
 
 ## Project Objective
 
@@ -22,3 +35,16 @@
 - Rapid API - to Setup Judge0 CE API
 - Axios - to make API calls
 - React Router - For routing
+
+ # Tech Stack
+ Client: HTML, CSS, JAVASCRIPT
+
+ # Feedback
+ If you have any feedback, please reach out to us at aniketp0981@gmail.com
+
+ 
+ #Authors
+ . @aniket2608
+ 
+ # Links
+ https://www.linkedin.com/in/aniket-patil26?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BxmJxe7kYRfeA6BFwknNepg%3D%3D
