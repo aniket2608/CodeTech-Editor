@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+  margin: 0px;
+  height: 100vh;
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #93aaf4);
+  font-family: 'Montserrat', sans-serif;
+  .material-icons{
+    cursor: pointer;
+    
+    
+  }
+}
+
+
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 1;
+    animation: fadeInZoomOut 4s ease-out forwards;
+    transition: opacity 1s ease-out;
+  }
+
+  .splash-screen.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards 0.5s;
+  
+  }
+  
+  .logo {
+    width: 90px;
+    animation: nameMoveUp 4s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes fadeInZoomOut {
+    0%, 50% {
+      opacity: 1;
+      transform: scale(1);
+      filter: blur(0);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.5) translateY(-100vh);
+      filter: blur(5px);
+    }
+  }
+  
+  @keyframes nameMoveUp {
+    0%, 50% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100vh);
+    }
+  }
+  
+  .site-name {
+    animation: nameMoveUp 4s ease-out forwards;
+    font-size: 5em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+   
+  }
+  .site {
+    color: rgb(255, 255, 255);
+    background-clip: text;
+
+  } 
+
+  .name {
+    background: linear-gradient(to right, #2b77f3, rgba(98, 5, 129, 0.667));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+

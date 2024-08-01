@@ -1,0 +1,79 @@
+.create-codebook-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(153, 153, 153, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.codebook-modal-body {
+    background-color: white;
+    padding: 50px;
+    padding-top: 10px;
+    box-shadow: 4px 4px 10px gray;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.codebook-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+     
+}
+
+.input,
+.selector {
+    flex: 1; 
+    border: none;
+    background-color: #eceaf4;
+    border-radius: 4px;
+    padding: 12px;
+
+   
+}
+
+.input:focus,
+.selector:focus {
+    outline: none;
+}
+
+.button {
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(105, 85, 218);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    max-width: 50%;
+    margin-left: 86px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(115, 76, 225);
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+}
+.input
+{
+    max-width: 70%;;
+}
+
+.selector {
+    max-width: 30%;
+}
