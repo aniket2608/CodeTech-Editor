@@ -1,4 +1,4 @@
-# Code Deck | An Online IDE
+# CodeTech | An Online IDE
 
 ## Project Objective
 
