@@ -1,4 +1,11 @@
 # CodeTech | An Online IDE
+
+
+## Website Link
+https://codetecheditor.netlify.app/
+
+
+
 1)SplashScreen
 
 ![Screenshot 2024-08-02 002223](https://github.com/user-attachments/assets/688725a4-1c02-4173-999b-331ff87b126b)
@@ -15,8 +22,7 @@
 
 ![Screenshot 2024-08-01 032014](https://github.com/user-attachments/assets/2aea168c-e0db-4290-ba77-ab00d73fba42)
 
-## Website Link
-https://codetecheditor.netlify.app/
+
 
 ## Project Objective
 
